@@ -1,0 +1,5 @@
+Use rolabelimg to label the dataset and obtain the xml file. (Tag folder name 'Annotations')
+Use the 'roxmltodota.py' to convert the 'Annotations' into an xml file that can be recognized by DOTA and a txt file in DOTA format. (After conversion, the folders 'dotaxml' and 'dotatxt' are obtained)
+Put images into the ’YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\images‘, and then put the DOTA format txt file into the ‘YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\labelTxt’.
+Use the ‘dotatoyolo.py’ to obtain the YOLO format labels and long-side converted images, which are in the ‘YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\yolo_labels’ and ‘YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\draw_longside_img’ respectively.
+Put images into the ‘YOLOv5_DOTA_OBB\DOTA_demo_view\images’, and the YOLO format labels into the ‘YOLOv5_DOTA_OBB\DOTA_demo_view\labels’.

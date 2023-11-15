@@ -1,7 +1,0 @@
-1、用rolabelimg软件标注数据集得到xml文件。（标签文件夹名“Annotations”）
-2、用roxmltodota.py程序把文件转换成dota能识别的xml文件与dota格式的txt文件。（转化后得到文件夹“dotaxml”和“dotatxt”）
-3、把图像放入YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\images文件夹内，
-   再把dota格式的txt文件放入YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\labelTxt文件夹内。
-4、用dotatoyolo.py程序得到YOLO格式的标签和长边转换后的图像，分别在YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\yolo_labels和
-   YOLOv5_DOTA_OBB\DOTA_devkit_YOLO\DOTA_demo\draw_longside_img文件夹内。
-5、把图像放入YOLOv5_DOTA_OBB\DOTA_demo_view\images文件夹内，YOLO格式的标签放入YOLOv5_DOTA_OBB\DOTA_demo_view\labels文件夹内。
